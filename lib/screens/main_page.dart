@@ -15,8 +15,6 @@ Widget _sectionTitle(String title) {
 class MainPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final screenWidth = MediaQuery.of(context).size.width;
-    final horizontalCardWidth = screenWidth * 0.4;
 
     return Scaffold(
       appBar: AppBar(title: Text("Bookstore")),
